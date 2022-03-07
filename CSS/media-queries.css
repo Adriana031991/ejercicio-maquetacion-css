@@ -1,3 +1,8 @@
+@media (max-width: 1024px) {
+    .waves {
+        bottom: -209px;
+    }
+}
 @media (max-width: 960px) {
     /* blog1 */
     .blogs-main-new {
@@ -32,6 +37,17 @@
     .contact-main-container div {
         height: 0;
     }
+
+    header .header-icon-container img {
+        top: 15px;
+        left: 6%;
+        height: 12%;
+    }
+
+    .waves {
+        bottom: -222px;
+    }
+
 }
 @media (max-width: 600px) {
     .blogs-post-container .post-container {
@@ -40,5 +56,60 @@
     }
     .post-container-proyects {
         display: block;
+    }
+    header .header-icon-container img {
+        top: 26px;
+        left: 3%;
+        height: 8.5%;
+    }
+
+    .waves {
+        bottom: -222px;
+    }
+}
+
+@media (max-width: 390px) {
+    .blogs-main-baby {
+        height: 18vh;
+
+    }
+
+    .blogs-baby-info-container {
+        font-size: 0.6em;
+    }
+
+    .blogs-baby-img-container img {
+        height: 67%;
+    }
+
+    .waves {
+        bottom: -46px;
+    }
+
+    nav .profile-link {
+        font-size: 0.5em;
+        margin-right: 42px;
+    }
+    
+    header .header-icon-container img {
+        top: 16px;
+        left: 3%;
+        height: 3%;
+    }
+
+    nav {
+        height: 2em;
+    }
+
+    .contact-main-container {
+        display: contents;
+    }
+
+    .card img {
+        width: 70px;
+        top: 140%;
+    }
+    .content-card p {
+        font-size: 0.7em;
     }
 }
